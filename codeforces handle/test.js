@@ -43,6 +43,7 @@ function reqListener () {
   lastOnline.innerHTML="Time since last login : "+ a.result[0].lastOnline;
   regTime.innerHTML="Time since registered : "+ a.result[0].regTime;
 
+document.getElementById("compTable").style="";
 
   //var alpha = document.createElement("p");
   //alpha.innerHTML = this.responseText;
